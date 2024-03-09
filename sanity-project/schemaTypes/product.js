@@ -15,12 +15,12 @@ export default {
         {
             name: 'name',
             title: 'Name',
-            type: 'String'
+            type: 'string'
         },
         {
             name: 'Slug',
             title: 'Slug',
-            type: 'Slug',
+            type: 'slug',
             options: {
                 source: 'name',
                 maxLength: 90
@@ -29,12 +29,12 @@ export default {
         {
             name: 'price',
             title: 'Price',
-            type:'Number'
+            type:'number'
         },
         {
             name: 'details',
             title: 'Details',
-            type: 'String'
+            type: 'string'
         }
     ]
 }
